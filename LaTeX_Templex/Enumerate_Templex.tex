@@ -1,0 +1,52 @@
+% Latex templex with some useful imports and commands set up.
+% Designed to save time on formatting documents with enumeration needs.
+
+% Author: Weifan Jiang
+
+\documentclass[]{article}
+\usepackage{amsmath}		% For generic math symbols
+\usepackage{amssymb}		% For mathbb
+\usepackage{enumerate}		% For lists indexed by letters
+\usepackage{bm}				% For bold letters
+\usepackage{enumitem}		% So we can resume counting problem numbers after
+							% interrupting with text
+\usepackage{hyperref}		
+\usepackage{url}			% For clickable URL links
+\usepackage{float}			% So file names won't create hboxes
+\setlength{\parindent}{0pt}	% Turns off indentation
+
+
+% Set some useful commands
+\newcommand{\half}{\frac{1}{2}}			% 1/2
+\newcommand{\R}{\mathbb{R}}				% Reals symbol
+\newcommand{\bbm}{\begin{bmatrix}}		% Begin bmatrix environment
+\newcommand{\ebm}{\end{bmatrix}}		% End bmatrix environment
+\newcommand{\x}{\bm{x}}					% Bold (vector) x
+\newcommand{\y}{\bm{y}}					% Bold (vector) y
+\newcommand{\z}{\bm{z}}					% Bold (vector) z
+\newcommand{\A}{\bm{A}}					% Bold (matrix) A
+\newcommand{\B}{\bm{B}}					% Bold (matrix) B
+\newcommand{\C}{\bm{C}}					% Bold (matrix) C
+\newcommand{\X}{\bm{X}}					% Bold (matrix) X
+\newcommand{\I}{\bm{I}}					% Bold (matrix) I
+\newcommand{\vspan}{\mathrm{span}}		% To use the word span in math mode
+
+% A Command to write the word "Solution" in larger font.
+\newcommand{\solution}{\vskip 0.5cm \textbf{\large Solution:} \\}
+
+% Title of document and author
+\title{Title}
+\author{Weifan Jiang}
+
+\begin{document}
+
+\maketitle
+
+% Feel free to re-style it for your needs!
+\begin{enumerate}
+	\item \solution
+	
+	\item \solution
+\end{enumerate}
+
+\end{document}

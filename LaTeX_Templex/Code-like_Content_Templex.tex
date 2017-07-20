@@ -1,0 +1,55 @@
+% This templex contains pre-defined lstset settings in order to
+% make writing code-like structured content more clearly.
+
+% Author: Weifan Jiang
+
+\documentclass[15]{article}
+\usepackage{amsmath}		% For generic math symbols
+\usepackage{amssymb}		% For mathbb
+\usepackage{enumerate}		% For lists indexed by letters
+\usepackage{bm}	
+\usepackage{enumitem}
+
+\usepackage{listings}
+\usepackage{color}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  basicstyle = \small,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{red},
+  stringstyle=\color{mauve},
+  breaklines=false,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\title{Title}
+\author{Weifan Jiang}
+
+\begin{document}
+\maketitle
+
+%Section for code
+\section{Psuedo-code}
+\lstset{language = Java} % Can change to other language
+
+% Fill in code in the following environment.
+% Note: latex comment is not "commented out" inside lstlisting environment
+\begin{lstlisting}
+
+\end{lstlisting}
+
+% Section for normal latex content
+\section{Explanation}
+
+\end{document}
