@@ -6,6 +6,7 @@ You are welcome to download and use them for your needs!
 Files contained in this repo: (last updated July 20, 2017)
 
 LaTeX_Templex:
+	
 	Code-like_Content_Templex.tex: contains pre-defined lstlisting formatting
 		to make it easier to write code-like structured in LaTeX.
 
