@@ -12,3 +12,7 @@ LaTeX_Templex:
 
 	Enumerate_Templex: contains pre-defined enumeration environment and some
 		commands to make homework formatting more convienent.
+
+Microsoft_PPT_Templex:
+
+	OBEL_Template: contains ppt templex for OBEL, UWA
